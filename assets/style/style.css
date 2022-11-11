@@ -1,0 +1,71 @@
+@import url(./fonts.css);
+
+:root {
+    --primary-color:rgba(255, 255, 255, 1);
+    --dark-color:rgba(134, 133, 133, 1);
+    --font-small: 14px;
+    --font-medium: 18px;
+    --font-large: 24px;
+    --title-h1: 700;
+    --title-h2: 400;
+   
+}
+/*BASE CONFIG*/
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body {
+    font-family: 'Noto Sans',Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    background: none;
+    border: 0;
+}
+/*BASE CONFIG*/
+/*UNIQUE*/
+.container {
+    padding: 0 10px;
+    margin: 0 auto;
+    max-width:1220px ;
+}
+section {
+    background:#E5E5E5 ;
+   
+
+}
+/*UNIQUE*/
+/*HERO SECTION*/
+.hero {
+    height: 100vh;
+    background-image: url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.hero__logo {
+justify-content: center;
+height: 100%;
+position: absolute;
+display: flex;
+}
+
+/*HERO SECTION*/
+/*SERVICES SECTION*/
+/*SERVICES SECTION*/
+/*PRICES SECTION*/
+/*PRICES SECTION*/
+/*SLOGAN SECTION*/
+/*SLOGAN SECTION*/
+/*CLIENTS SECTION*/
+/*CLIENTS SECTION*/
+
+
+
+/*FOOTER SECTION*/
+/*FOOTER SECTION*/
